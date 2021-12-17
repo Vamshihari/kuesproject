@@ -1,0 +1,141 @@
+body{
+    background-color: #c6d7de;
+    font-family: 'montserrat';
+     padding:0; 
+    
+}
+
+
+/* ------------NAVBAR----------------*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom:20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(12, 11, 11);
+    z-index: 2;
+    position: sticky;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+  }
+  
+   nav li a:hover:not(.active) {
+    background-color: #111;
+  }
+   
+   nav .active {
+    background-color: #085a91;
+  }
+  
+
+/* ------------FOOTER----------------*/
+
+ .footer{
+    
+    position:fixed;
+    width:100%;
+    bottom:0;
+   flex-direction: column;
+   padding:50px 50px 0px 50px;
+    background:#111;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display:inline-flex;
+    margin-top: 0px;
+    height: 350px;
+    
+   
+}
+
+.footer .container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 0px;
+}
+.footer .container .sec{
+    margin-right:30px;
+}
+.footer .container .sec.about{
+    width:40%;
+}
+.footer .container h2{
+    position:relative;
+    color:#fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.footer .container h2:before{
+    content:'';
+    position:absolute;
+    bottom: -5px;
+    left: 0;
+    width:50px;
+    height:2px;
+    background: #f00;
+}
+.footer p{
+    color:#999;
+}
+.sci{
+        margin-top: 20px;
+        display:flex;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a
+{
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    background:#222;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+} 
+.sci li a:hover
+{
+    background:#f00;
+}
+.sci li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+.quickLinks{
+    position: relative;
+    width:25%;
+}
+.quickLinks ul li {
+    list-style: none;
+}
+.quickLinks ul li a{
+color: #999;
+text-decoration: none;
+margin-bottom: 10px;
+display:inline-block;
+}
+
+/* ============================================*/
+
+ 
